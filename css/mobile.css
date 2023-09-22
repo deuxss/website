@@ -1,0 +1,345 @@
+@media screen and (max-width: 768px) {
+    i.menu-mobile {
+        position: relative;
+        display: block;
+        top: 10px;
+        right: 10px;
+        font-size: 22px;
+        color: #fff;
+    }
+
+    aside {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    img#logo-mobile {
+        width: 120px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    #menu-mobile {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: -250px;
+        width: 250px;
+        height: 100%;
+        background-color: #000;
+        transition: left 0.3s ease-in-out;
+        z-index: 999999;
+    }
+
+    #menu-mobile.active {
+        left: 0;
+    }
+
+    nav.nav-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        margin-top: 50px;
+    }
+
+    .nav-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-item a {
+        width: 50%;
+        text-align: start;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .btn-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        margin-top: 50px;
+        border-radius: 18px;
+        border: 0.5px solid #FFF;
+        background: none;
+    }
+
+    .btn-mobile a {
+        width: 100%;
+        text-decoration: none;
+        font-size: 17px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #FFF;
+    }
+
+    img#logo-mobile-menu {
+        width: 120px;
+        height: 40px;
+        margin-top: 100px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .text {
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .title {
+        width: 85%;
+        font-size: 38px;
+        text-align: start;
+    }
+
+    .point {
+        font-size: 38px;
+    }
+
+    span#txt-text {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    img#task {
+        width: 95%;
+        height: 100%;
+        margin-top: 50px;
+    }
+
+    .text-2 #title-text-2 {
+        font-size: 38px;
+    }
+
+    .text-2 #txt-text-2 {
+        width: 93%;
+        font-size: 16px;
+    }
+
+    h1#title-box-card {
+        font-size: 38px;
+    }
+
+    .box-cards {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .card {
+        width: 95%;
+        margin-bottom: 15px;
+    }
+
+    .text-card {
+        width: 95%;
+    }
+
+    .images-content {
+        margin-top: 90px;
+        height: 100%;
+        margin-bottom: 150px;
+    }
+
+    .box-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-task {
+        width: 95%;
+        height: 100%;
+    }
+
+    #task1 {
+        margin-right: 0;
+    }
+
+    #task2 {
+        margin-top: 0;
+    }
+
+    #task3 {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    h1#title-about {
+        font-size: 38px;
+    }
+
+    .img-about-container {
+        flex-direction: column;
+    }
+
+    .box-img-about {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .img-about {
+        width: 90%;
+    }
+
+    .title-box-img-about {
+        font-size: 38px;
+    }
+
+    .text-img-about {
+        width: 94%;
+        font-size: 16px;
+    }
+
+    h1#title-text-container {
+        font-size: 38px;
+    }
+
+    .text-text-container {
+        width: 93%;
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+
+    img.img-logo-text-container {
+        width: 120px;
+        height: 40px;
+    }
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+    h1 {
+        font-size: 48px !important;
+    }
+
+    span {
+        font-size: 20px !important;
+    }
+
+    img#logo-mobile {
+        width: 150px;
+        height: 50px;
+        margin-left: 50px;
+    }
+
+    .point {
+        font-size: 48px !important;
+    }
+
+    span#txt-text {
+        width: 88%;
+        font-size: 20px;
+    }
+
+
+    .box-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 95%;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1439px) {
+    h1 {
+        font-size: 60px !important;
+    }
+
+    span {
+        font-size: 20px !important;
+    }
+
+    .nav {
+        padding-left: 80px;
+        padding-right: 22px;
+    }
+
+    ul#menu {
+        width: 70%;
+    }
+
+    .box {
+        padding-left: 80px;
+        padding-right: 20px;
+    }
+
+    .point {
+        font-size: 60px !important;
+    }
+
+    span#txt-text {
+        width: 90%;
+    }
+    
+    img#task {
+        width: 500px;
+        height: 100%;
+    }
+
+    .card {
+        width: 240px;
+    }
+
+    .title-card {
+        font-size: 45px !important;
+    }
+
+    .text-card  {
+        width: 98%;
+        font-size: 16px !important;
+    }
+
+    .img-task {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about {
+        margin-top: -150px;
+    }
+
+    .title-box-img-about {
+        font-size: 48px !important;
+    }
+}

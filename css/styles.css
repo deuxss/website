@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #000 0%, #10412E 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+}
+
+aside {
+    display: none;
+}
+
+#menu-mobile {
+    display: none;
+}
+
+i.menu-mobile {
+    display: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+    height: 110px;
+    padding-left: 150px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    background: none;
+}
+
+ul#menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 50px;
+}
+
+ul#menu li {
+    list-style: none;
+}
+
+ul#menu a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+}
+
+.nav img {
+    width: auto;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 55px;
+    border-radius: 18px;
+    border: 0.5px solid #FFF;
+    background: none;
+}
+
+.btn a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 70px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.title {
+    margin: 0;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFF;
+}
+
+.point {
+    font-size: 70px;
+    color: #2ACF8F;
+}
+
+span#txt-text {
+    width: 480px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+}
+
+img#task {
+    width: 700px;
+    height: 510px;
+    margin-top: 90px;
+    transform: rotate(-2.294deg);
+    flex-shrink: 0;
+}
+
+.text-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.text-2 #title-text-2 {
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #FFF;
+}
+
+.text-2 #txt-text-2 {
+    width: 65%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+}
+
+.whatWeDo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 100px;
+}
+
+h1#title-box-card {
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #FFF;
+}
+
+.box-cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 305px;
+    height: 238px;
+    border-radius: 20px;
+    border: 0.5px solid #2ACF8F;
+    background: none;
+}
+
+.title-card {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #2ACF8F;
+}
+
+.text-card {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+}
+
+.images-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 130px;
+}
+
+.box-images {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.img-task {
+    width: 511px;
+    height: 355px;
+    transform: rotate(-2.294deg);
+}
+
+#task2 {
+    margin-top: 50px;
+}
+
+#task1 {
+    margin-right: -115px;
+}
+
+#task3 {
+    margin-left: -150px;
+    margin-top: -20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: -100px;
+}
+
+h1#title-about {
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #FFF;
+}
+
+.img-about-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.box-img-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.img-about {
+    width: 400px;
+}
+
+.title-box-img-about {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #2ACF8F;
+}
+
+.text-img-about {
+    width: 393px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+h1#title-text-container {
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #FFF;
+}
+
+.text-text-container {
+    width: 58%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+}
+
+img.img-logo-text-container {
+    width: auto;
+    height: 60px;
+    margin-top: 70px;
+
+}
